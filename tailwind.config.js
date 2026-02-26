@@ -11,6 +11,10 @@ export default {
         'primary-dark': '#e63d49',
         accent: '#009FF0',
         text: '#333333',
+        'pricing-orange': '#FF703E',
+        'pricing-yellow': '#FFDF35',
+        'pricing-cream': '#FFF9D4',
+        'pricing-ask': '#0088CC',
       },
       fontFamily: {
         manrope: ['Manrope', 'sans-serif'],
