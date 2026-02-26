@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Benzin Font */
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Benzin';
+  src: url('/fonts/Benzin-ExtraBold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-manrope text-text antialiased;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* Дополнительные утилиты в стиле образца */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
